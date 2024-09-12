@@ -1,1 +1,1 @@
-"use strict";//# sourceMappingURL=script.js.map
+"use strict";var darkButton=document.getElementById("dark"),lightButton=document.getElementById("light"),radioButtons=document.querySelectorAll(".toggle__wrapper > input"),setDarkMode=function(){document.querySelector("body").classList="dark"},setLightMode=function(){document.querySelector("body").classList="light"};radioButtons.forEach((function(t){t.addEventListener("click",(function(t){darkButton.checked?setDarkMode():setLightMode()}))}));//# sourceMappingURL=script.js.map
